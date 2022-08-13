@@ -1,6 +1,6 @@
 # Ссылка на сайт с домашней работой
 
-https://irynasunny.github.io/goit-markup-hw-01/
+https://github.com/IrynaSunny/goit-markup-hw-02.git
 
 
 
