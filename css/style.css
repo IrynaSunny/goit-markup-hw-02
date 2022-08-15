@@ -11,7 +11,6 @@ body{
 color:var(--main-font-color);
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-   
 }
 .logo{
     color: var(--main-title-color);
@@ -23,13 +22,17 @@ color:var(--main-font-color);
 }
 .blue-text{ 
     color:var(--main-blue-color);
-
+}
+.remove-dots{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
 .nav-link{
     color: var(--main-title-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 14px;  
 }
 .nav-link:hover{
     color: var(--main-blue-color);
@@ -37,18 +40,8 @@ color:var(--main-font-color);
 .nav-link:focus{
     color: var(--main-blue-color);
 }
-.nav-email{
-   color: var(--main-blue-color);
-   font-weight: 500;
-   font-size: 14px;
-}
-.nav-number{
-font-weight: 500;
-font-size: 14px;
-}
 .main-title{
     color: var(--main-white-color);
-
 }
 .title-button{
     color: var(--main-white-color);
@@ -59,6 +52,18 @@ font-size: 14px;
     height: 50px;
     align-items: center;
     text-align: center;
+}
+ .info-data {
+    color:var(--main-font-color);
+     text-decoration:none;
+     font-weight: 500;
+     font-size: 14px;   
+}
+ .info-data:hover {
+     color: var(--main-blue-color);
+}
+.info-data:focus {
+     color: var(--main-blue-color);
 }
 .small-title{
     color: var(--main-title-color);
@@ -83,7 +88,7 @@ font-size: 14px;
     margin: 0;
 
 }
-.team-list h5{
+.team-list h3{
 font-weight: 500;
 font-size: 16px;
 color: var(--main-title-color);
@@ -99,14 +104,22 @@ color: var(--main-title-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
+    text-decoration: none;
 }
 .footer-text{
     display:block;
     text-decoration:none;
-    color: var(--white-color-clear);
+    color: var(--white-color-clear);  
+}
+.footer-text:hover{
+color: var(--main-blue-color);
+}
+.footer-text:focus{
+color: var(--main-blue-color);
 }
 .footer-address{
     color: var(--main-white-color);
+    text-decoration: none;
 }
 .departments{
 font-weight: 500;

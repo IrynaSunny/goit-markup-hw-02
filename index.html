@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,20 +22,27 @@
 
   <body>
     <header>
-      <div>
-        <a class="logo" href="index.html">
-          <span class="blue-text">Web</span>Studio
-        </a>
-      </div>
+      <a class="logo" href="index.html">
+        <span class="blue-text">Web</span>Studio
+      </a>
+
       <nav>
-        <a class="nav-link" href="#"> Студія</a>
-        <a class="nav-link" href="porfolio.html">Портфоліо</a>
-        <a class="nav-link" href="#">Контакти</a>
+        <ul class="remove-dots">
+          <li><a class="nav-link" href="#"> Студія</a></li>
+          <li><a class="nav-link" href="porfolio.html">Портфоліо</a></li>
+          <li><a class="nav-link" href="#">Контакти</a></li>
+        </ul>
       </nav>
-      <div>
-        <span class="nav-email"> info@devstudio.com</span>
-        <span class="nav-number">+38 096 111 11 11</span>
-      </div>
+      <ul class="remove-dots">
+        <li>
+          <a class="info-data" href="mailto:info@devstudio.com">
+            info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="info-data" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
 
     <main>
@@ -45,29 +52,30 @@
       </section>
 
       <section>
+        <h2 hidden>особливості</h2>
         <ul class="list">
           <li>
-            <h5 class="small-title">УВАГА ДО ДЕТАЛЕЙ</h5>
+            <h3 class="small-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="s-title-description">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h5 class="small-title">ПУНКТУАЛЬНІСТЬ</h5>
+            <h3 class="small-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="s-title-description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h5 class="small-title">ПЛАНУВАННЯ</h5>
+            <h3 class="small-title">ПЛАНУВАННЯ</h3>
             <p class="s-title-description">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h5 class="small-title">СУЧАСНІ ТЕХНОЛОГІЇ</h5>
+            <h3 class="small-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="s-title-description">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
@@ -84,7 +92,7 @@
               height="294px"
               width="370px"
               src="./images/laptop.jpg"
-              alt="laptop"
+              alt="a man works on the laptop"
             />
           </li>
           <li>
@@ -92,7 +100,7 @@
               height="294px"
               width="370px"
               src="./images/tables.jpg"
-              alt="tables"
+              alt="a man compares tables"
             />
           </li>
           <li>
@@ -100,7 +108,7 @@
               height="294px"
               width="370px"
               src="./images/gradiant.jpg"
-              alt="gradiant"
+              alt=" a man chooses the color on a gradiant"
             />
           </li>
         </ul>
@@ -118,8 +126,8 @@
               alt="product-designer"
             />
 
-            <h5>Ігор Дем'яненко</h5>
-            <p>Product Designer</p>
+            <h3>Ігор Дем'яненко</h3>
+            <p lang="en">Product Designer</p>
           </li>
 
           <li>
@@ -129,8 +137,8 @@
               src="images/frontent-developer-squoosh.jpg"
               alt="frontent-developer"
             />
-            <h5>Ольга Рєпіна</h5>
-            <p>Frontend Developer</p>
+            <h3>Ольга Рєпіна</h3>
+            <p lang="en">Frontend Developer</p>
           </li>
 
           <li>
@@ -140,8 +148,8 @@
               src="images/marketing-squoosh.jpg"
               alt="marketing"
             />
-            <h5>Микола Тарасов</h5>
-            <p>Marketing</p>
+            <h3>Микола Тарасов</h3>
+            <p lang="en">Marketing</p>
           </li>
 
           <li>
@@ -152,22 +160,38 @@
               alt="ui-designer"
             />
 
-            <h5>Михайло Єрмаков</h5>
-            <p>UI Designer</p>
+            <h3>Михайло Єрмаков</h3>
+            <p lang="en">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <footer class="background">
-      <div class="footer-logo"><span class="blue-text">Web</span>Studio</div>
-
-      <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
-
-      <a class="footer-text" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
+      <a class="footer-logo" lang="en" href="#"
+        ><span class="blue-text">Web</span>Studio</a
       >
-      <a class="footer-text" href="tel:+380961111111">+38 096 111 11 11</a>
+      <address>
+        <ul class="remove-dots">
+          <li>
+            <a
+              class="footer-address"
+              href="https://goo.gl/maps/fxkEnHUCGzXbZ7778"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li>
+            <a class="footer-text" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-text" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
