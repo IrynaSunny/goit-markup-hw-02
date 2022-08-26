@@ -18,21 +18,29 @@ background-color: var(--main-white-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    
+    line-height: 1.19;
 }
 .blue-text{ 
     color:var(--main-blue-color);
 }
 .remove-dots{
     padding: 0;
-    margin: 0;
+    margin: 0; 
     list-style-type: none;
+}
+.footer-no-style{
+list-style-type: none;
+}
+.footer-size-text{
+padding-bottom: 9px;
 }
 .nav-link{
     color: var(--main-title-color);
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;  
+    font-size: 14px; 
+    line-height: 1.14; 
+    letter-spacing: 0.02em;
 }
 .nav-link:hover,.nav-link:focus{
     color: var(--main-blue-color);
@@ -57,7 +65,8 @@ background-color: var(--main-white-color);
     color:var(--main-font-color);
      text-decoration:none;
      font-weight: 500;
-     font-size: 14px;   
+     font-size: 14px;  
+     letter-spacing: 0.02em; 
 }
  .info-data:hover,.info-data:focus {
      color: var(--main-blue-color);
@@ -67,11 +76,15 @@ background-color: var(--main-white-color);
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .s-title-description{
     color: var(--main-font-color);
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .big-title{
     color: var(--main-title-color);
@@ -84,17 +97,19 @@ background-color: var(--main-white-color);
     padding: 0;
     margin: 0;
 }
-.team-list h3{
+.team-list-title{
 font-weight: 500;
 font-size: 16px;
 color: var(--main-title-color);
 text-align: center;
-line-height: 1.14;
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
-.team-list p{
+.team-list-text{
     font-size: 16px;
     text-align: center;
-    line-height: 1.71;
+    line-height: 1.19;
+    letter-spacing:0.03em ;
 }
 .background-color-team{
     background-color: var(--background-department);
@@ -104,6 +119,18 @@ line-height: 1.14;
 }
 .names-color{
     background-color: var(--background-department);
+}
+.title-portfolio{
+    color:var(--main-title-color);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    line-height: 2;
+}
+.description-portfolio{
+    color: var(--main-font-color);
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 .footer-logo{
     color: var(--main-white-color);
@@ -135,6 +162,8 @@ font-weight: 500;
  border-radius: 4px;
  cursor: pointer;
  font-family: inherit;
+ line-height: 1.63;
+ letter-spacing: 0.03em;
 }
 .departments:hover,.departments:focus{
 color: var(--main-white-color);
